@@ -23,6 +23,8 @@ Para poder afrontar esta problemática, se proponen diferentes algoritmos de mac
 
 Para todos ellos se realiza una búsqueda de hiperparámetros y cross-validation con GridSearchCV.
 
+Los archivos prepro.py y mls.py contienen las funciones utilizadas durante el preprocesamiento, analisis exploratorio de datos y machine learning.
+
 Conclusiones:
 - El modelo que mejor captura la relación entre las variables y  mejor clasifica a los pacientes teniendo en cuenta la sensibilidad de la clase minoritaria es la regresión logística, tanto con la estrategia de ponderación de pesos de clase como con oversampling, con una sensibilidad de la clase minoritaria en el test de 0.89
 - El modelo SVM también alcanza una buena recall de 0.83 con ambos métodos.
