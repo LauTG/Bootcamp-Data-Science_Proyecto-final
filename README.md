@@ -10,16 +10,16 @@ El objetivo de este proyecto es encontrar y entrenar el mejor modelo de machine 
 Para poder afrontar esta problemática, se proponen diferentes algoritmos de machine learning que son son entrenados con distintas estrategias para mejorar y afrontar estas problemáticas:
 
 1. Modelos:  
-   a) Regresión logistica con regularización Ridge (Rlogistica.ipynb)  
-   b) Support vector machine con regularización Ridge (SVM.ipynb)  
-   c) Métodos de ensembling (Ensembling.ipynb)  
+   a. Regresión logistica con regularización Ridge (Rlogistica.ipynb)  
+   b. Support vector machine con regularización Ridge (SVM.ipynb)  
+   c. Métodos de ensembling (Ensembling.ipynb)  
       - Random Forest
       - XGBoost (sin método oversampling)
 
 3. Estrategias:  
-   a) Estrategias básicas: estratificar la divisón train-test y elección de métrica más acorde al objetivo  
-   b) Con ponderación de pesos de clase  
-   c) Con Oversampling de clase minoritaria   
+   a. Estrategias básicas: estratificar la divisón train-test y elección de métrica más acorde al objetivo  
+   b. Con ponderación de pesos de clase  
+   c. Con Oversampling de clase minoritaria   
 
 Para todos ellos se realiza una búsqueda de hiperparámetros y cross-validation con GridSearchCV.
 
